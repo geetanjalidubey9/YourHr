@@ -59,8 +59,9 @@ const corsOptions = {
   credentials: true,
 };
 
-// Middleware
-app.use(cors(corsOptions));
+app.use(cors({
+  origin: 'https://your-hr-tan.vercel.app' // Replace with your frontend URL
+}));
 app.use(express.json());
 
 const DB_URI = process.env.DBURI.replace("<password>", process.env.DBPASSWORD);
