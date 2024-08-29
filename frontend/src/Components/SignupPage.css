@@ -62,6 +62,10 @@
     margin-top: 20px;
     color: #d9534f; 
   }
+  .form-error {
+    color: red;
+    font-size: 0.875em;
+  }
   
   @media (max-width: 576px) {
     .signup-container {
