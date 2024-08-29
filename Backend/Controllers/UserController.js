@@ -4,7 +4,7 @@ const crypto = require('crypto-js');
 const dotenv = require("dotenv");
 dotenv.config({ path: "config.env" });
 
-// Use a static encryption key from  environment variables
+// Use a static encryption key from variables
 const encryptionKey = process.env.JWT_SECRET;
 
 console.log('Encryption Key:', encryptionKey);  // Debugging line  
