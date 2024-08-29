@@ -142,7 +142,7 @@ const SignupPage = () => {
       e.preventDefault();
       setMessage(''); // Clear previous messages
       try {
-        const response = await axios.post('https://localhost:300/api/signup', formData);
+        const response = await axios.post('https://yourhr-o5kg.onrender.com/api/signup', formData);
         setMessage(response.data.msg);
         if (response.status === 201) { 
           navigate('/thank-you');
