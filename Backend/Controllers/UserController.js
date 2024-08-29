@@ -4,10 +4,10 @@ const crypto = require('crypto-js');
 const dotenv = require("dotenv");
 dotenv.config({ path: "config.env" });
 
-// Use a static encryption key from your environment variables
+// Use a static encryption key from  environment variables
 const encryptionKey = process.env.JWT_SECRET;
 
-console.log('Encryption Key:', encryptionKey);  // Debugging line  // Debugging line
+console.log('Encryption Key:', encryptionKey);  // Debugging line  
 
 exports.signup = async (req, res) => {
   const { firstName, lastName, email, password, phoneNumber, resumeUrl } = req.body;
