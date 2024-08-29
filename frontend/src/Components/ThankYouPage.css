@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .thank-you-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .thank-you-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  color: #000000;
+  }
+  
+  .thank-you-container p {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  
+  .back-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; /* Blue text color */
+   color: #fff; /* White background */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-home:hover {
+color: #f8f9fa;
+    background-color:rgb(73, 70, 70); /* Light grey on hover */
+  }
+  
